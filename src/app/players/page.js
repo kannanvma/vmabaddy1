@@ -7,6 +7,7 @@ import { collection, addDoc } from "firebase/firestore";
 export default function Players() {
 
   const [name,setName] = useState("");
+  const [phone,setPhone] = useState("");
   const [email,setEmail] = useState("");
 
   const addPlayer = async () => {
